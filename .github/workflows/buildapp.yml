@@ -8,7 +8,7 @@ on:
     inputs:
       sdk_version:
         description: "iOS SDK Version"
-        default: "18.0"
+        default: "16.5"
         required: true
         type: string
       uyou_version:
@@ -18,7 +18,7 @@ on:
         type: string
       decrypted_youtube_url:
         description: "Direct URL of the decrypted YouTube IPA"
-        default: "https://www.dropbox.com/scl/fi/46d5yt0e48tsv7jhbxqos/YouTube-19.41.3.ipa?rlkey=tiorbjfqcjxq1oszqscxb7u49&st=1odzg3qr&dl=0"
+        default: ""
         required: true
         type: string
       bundle_id:
